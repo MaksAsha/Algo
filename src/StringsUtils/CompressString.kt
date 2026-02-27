@@ -1,5 +1,23 @@
+package StringsUtils
+
 /**
- * Compress String
+ * Compresses a string using character counts.
+ *
+ * Consecutive repeating characters are replaced by the character
+ * followed by the number of repetitions.
+ *
+ * If the compressed string is not shorter than the original,
+ * the original string is returned.
+ *
+ * Example:
+ * Input: "aabcccccaaa"
+ * Output: "a2b1c5a3"
+ *
+ * Input: "abc"
+ * Output: "abc"
+ *
+ * @param text input string to compress
+ * @return compressed string or original string if compression is not efficient
  */
 fun compressString(str: String): String {
     val sb = StringBuilder()

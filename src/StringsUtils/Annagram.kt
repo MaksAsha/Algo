@@ -1,3 +1,20 @@
+package StringsUtils
+
+/**
+ * Checks whether two strings are anagrams of each other.
+ *
+ * Two strings are considered anagrams if they contain the same characters
+ * in the same frequency but in a different order.
+ * Character case is ignored.
+ *
+ * Example:
+ * Input: "Listen", "Silent"
+ * Output: true
+ *
+ * @param s1 the first input string
+ * @param s2 the second input string
+ * @return true if the strings are anagrams, false otherwise
+ */
 fun isAnagram(s1: String, s2: String): Boolean {
     val map1 = HashMap<Char, Int>()
     val map2 = HashMap<Char, Int>()

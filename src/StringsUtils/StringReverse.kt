@@ -1,5 +1,16 @@
+package StringsUtils
+
 /**
- * String reverse.
+ * Reverses the given string manually without using built-in reverse methods.
+ *
+ * Returns a new string with characters in reverse order.
+ *
+ * Example:
+ * Input: "Kotlin"
+ * Output: "niltoK"
+ *
+ * @param text input string to reverse
+ * @return reversed string
  */
 fun stringReverse(str: String): String {
     val sb = StringBuilder()
