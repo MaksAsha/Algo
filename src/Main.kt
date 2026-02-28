@@ -4,6 +4,7 @@ import Arrays.getIndexFromArray
 import Arrays.getMaxSum
 import Arrays.reverseArray
 import Arrays.showFizzBuzz
+import Collections.groupAnagram
 import StringsUtils.reversingWordsInSentence
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -28,5 +29,8 @@ fun main() {
     //val a = reverseArray(arrayOf(1,2,3,4,5))
     //println(a.joinToString())
 
-    showFizzBuzz(15)
+    //showFizzBuzz(15)
+
+    val s = groupAnagram(arrayOf("eat", "tea", "tan", "ate", "nat", "bat"))
+    println(s)
 }
